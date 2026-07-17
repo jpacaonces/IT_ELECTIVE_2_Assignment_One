@@ -2,7 +2,153 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!-- HOME SECTION -->
+<section id="home" class="py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-4 text-center mb-4 mb-md-0">
+                <img src="~/images/profile.png" alt="Profile Photo" class="img-fluid rounded-circle border" style="max-width: 250px;" />
+            </div>
+            <div class="col-md-8">
+                <h1 class="display-5 fw-bold">Pacaonces Janssen M.</h1>
+                <h4 class="text-secondary mb-3">Aspiring Software Developer</h4>
+                <p class="lead">
+                    I'm a BSIT student passionate about building clean, functional web applications.
+                    I enjoy learning new frameworks and turning ideas into working software.
+                </p>
+                <a href="#projects" class="btn btn-primary me-2">View Projects</a>
+                <a href="#contact" class="btn btn-outline-secondary">Contact Me</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<hr />
+
+<!-- ABOUT ME SECTION -->
+<section id="about" class="py-5">
+    <div class="container">
+        <h2 class="mb-4 fw-bold">About Me</h2>
+        <p>
+            I am a third-year BSIT student with a strong interest in web development and software engineering.
+            My coursework has given me hands-on experience with C#, VB.NET, and ASP.NET Core, and I enjoy the
+            process of taking a problem and building a working solution around it, from the database up to the
+            user interface.
+        </p>
+        <p>
+            My educational background includes coursework in Computer Systems Administration, programming
+            fundamentals, and web technologies. My career goal is to become a full-stack developer, and eventually
+            move into roles where I can mentor other developers. Outside of coding, I enjoy gaming, exploring new
+            tech, and tinkering with my PC setup.
+        </p>
+    </div>
+</section>
+
+<hr />
+
+<!-- SKILLS SECTION -->
+<section id="skills" class="py-5">
+    <div class="container">
+        <h2 class="mb-4 fw-bold">Skills</h2>
+        <div class="row g-4">
+            <div class="col-md-3 col-sm-6">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Programming Languages</h5>
+                        <p class="card-text">C#, VB.NET, Java, JavaScript</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Web Technologies</h5>
+                        <p class="card-text">ASP.NET Core MVC, HTML5, CSS3, Bootstrap 5</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Databases</h5>
+                        <p class="card-text">SQL Server, MySQL</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Development Tools</h5>
+                        <p class="card-text">Visual Studio, Git, GitHub</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<hr />
+
+<!-- PROJECTS SECTION -->
+<section id="projects" class="py-5">
+    <div class="container">
+        <h2 class="mb-4 fw-bold">Projects</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="~/images/project1.jpg" class="card-img-top" alt="Project 1" />
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Loan Calculator</h5>
+                        <p class="card-text">
+                            A VB.NET WinForms application that computes loan payments and interest for a lending company.
+                        </p>
+                        <p class="card-text"><small class="text-muted">VB.NET, WinForms</small></p>
+                        <a href="#" class="btn btn-outline-primary mt-auto">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="~/images/project2.png" class="card-img-top" alt="Project 2" />
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Portfolio Website</h5>
+                        <p class="card-text">
+                            A responsive personal portfolio built with ASP.NET Core MVC and Bootstrap 5.
+                        </p>
+                        <p class="card-text"><small class="text-muted">ASP.NET Core, Bootstrap</small></p>
+                        <a href="#" class="btn btn-outline-primary mt-auto">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="~/images/project3.png" class="card-img-top" alt="Project 3" />
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Grade Calculator</h5>
+                        <p class="card-text">
+                            A simple C# console application that computes and displays student grades.
+                        </p>
+                        <p class="card-text"><small class="text-muted">C#, Console App</small></p>
+                        <a href="#" class="btn btn-outline-primary mt-auto">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<hr />
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="mb-4 fw-bold">Contact</h2>
+        <ul class="list-unstyled">
+            <li class="mb-2"><strong>Email:</strong> janssen.m.pacaoncess@gmail.com</li>
+            <li class="mb-2"><strong>Mobile:</strong> +63 998 944 3183</li>
+            <li class="mb-2"><strong>GitHub:</strong> <a href="https://github.com/" target="_blank">https://github.com/jpacaonces</a></li>
+            <li class="mb-2"><strong>LinkedIn:</strong> <a href="https://linkedin.com/" target="_blank">https://www.linkedin.com/in/janssen-pacaonces-27866036b/</a></li>
+        </ul>
+        <a href="#" class="btn btn-success">Download Resume</a>
+    </div>
+</section>
