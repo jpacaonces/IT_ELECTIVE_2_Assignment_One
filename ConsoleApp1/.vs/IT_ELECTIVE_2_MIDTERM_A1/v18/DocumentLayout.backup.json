@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\DOWNLOADS\\IT_ELECTIVE_2_Assignment_One\\ConsoleApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5E208DFF-EE8F-44F6-8E8C-42441671A944}|WebApplication1\\WebApplication1.csproj|d:\\downloads\\it_elective_2_assignment_one\\consoleapp1\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5E208DFF-EE8F-44F6-8E8C-42441671A944}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5E208DFF-EE8F-44F6-8E8C-42441671A944}|WebApplication1\\WebApplication1.csproj|d:\\downloads\\it_elective_2_assignment_one\\consoleapp1\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5E208DFF-EE8F-44F6-8E8C-42441671A944}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E208DFF-EE8F-44F6-8E8C-42441671A944}|WebApplication1\\WebApplication1.csproj|d:\\downloads\\it_elective_2_assignment_one\\consoleapp1\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E208DFF-EE8F-44F6-8E8C-42441671A944}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,20 +42,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\DOWNLOADS\\IT_ELECTIVE_2_Assignment_One\\ConsoleApp1\\WebApplication1\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\DOWNLOADS\\IT_ELECTIVE_2_Assignment_One\\ConsoleApp1\\WebApplication1\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "WebApplication1\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAAA0AAABDAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAJgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-07-17T15:16:48.156Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\DOWNLOADS\\IT_ELECTIVE_2_Assignment_One\\ConsoleApp1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
@@ -63,7 +63,8 @@
               "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAEUAAAAAAAAAAAAowFUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-17T15:15:42.272Z"
+              "WhenOpened": "2026-07-17T15:15:42.272Z",
+              "EditorCaption": ""
             }
           ]
         }
