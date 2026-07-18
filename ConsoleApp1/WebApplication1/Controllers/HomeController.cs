@@ -11,10 +11,32 @@ public class HomeController : Controller
         return View();
     }
 
+    public IActionResult AboutMe()
+    {
+        return View();
+    }
+
+    public IActionResult Skills()
+    {
+        return View();
+    }
+
+    public IActionResult Projects()
+    {
+        return View();
+    }
+
+    public IActionResult Contact()
+    {
+        return View();
+    }
+
     public IActionResult Privacy()
     {
         return View();
     }
+
+
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
